@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 h1,
 h2,
 h3,
@@ -627,7 +628,6 @@ a {
   color: #ffffff;
 }
 
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -974,8 +974,6 @@ a {
   background-color: #31d0aa;
 }
 
-
-
 /* 
 ====================================
 ====================================
@@ -987,14 +985,6 @@ BURADAN SONRASI TABLET! KARIŞTIRMA!
 ====================================
 ====================================
 */
-
-
-
-
-
-
-
-
 
 @media (min-width: 768px) {
   .burger-button {
@@ -1311,10 +1301,11 @@ BURADAN SONRASI TABLET! KARIŞTIRMA!
     max-width: 1440px;
     margin: 0 auto;
     background-image:
-        linear-gradient(rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)),
-        image-set(url("../images/bg-image.jpg") 1x,
-          url("../images/bg-image@2x.jpg") 2x);
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      image-set(
+        url("../images/bg-image.jpg") 1x,
+        url("../images/bg-image@2x.jpg") 2x
+      );
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1641,7 +1632,6 @@ BURADAN SONRASI TABLET! KARIŞTIRMA!
     color: #ffffff;
   }
 
-
   .contact-form {
     display: flex;
     flex-direction: column;
@@ -1858,12 +1848,6 @@ BURADAN SONRASI TABLET! KARIŞTIRMA!
   }
 }
 
-
-
-
-
-
-
 /* 
 ====================================
 ====================================
@@ -1875,12 +1859,6 @@ BURADAN SONRASI DESKTOP! KARIŞTIRMA!
 ====================================
 ====================================
 */
-
-
-
-
-
-
 
 @media (min-width: 1158px) {
   .burger-button {
@@ -2736,4 +2714,3 @@ BURADAN SONRASI DESKTOP! KARIŞTIRMA!
     display: flex;
   }
 }
-
