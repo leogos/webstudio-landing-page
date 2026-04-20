@@ -1,6 +1,24 @@
 # goit-markup-hw-06
 
-This is my first project in my course. The project's scope is HTML and CSS.
-I used HTML and CSS mainly and added basic JS codes after the project approved by course mentor.
+# WebStudio Landing Page
 
--Leo
+Responsive landing page built using HTML and CSS.
+
+## Features
+
+- Semantic HTML5 structure
+- Responsive layout
+- Flexbox & Grid usage
+- Contact form section
+- Mobile-first approach
+
+## Technologies
+
+- HTML5
+- CSS3
+- Flexbox
+- Grid
+
+## Live Demo
+
+https://leogos.github.io/goit-markup-hw-06/
