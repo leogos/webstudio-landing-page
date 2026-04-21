@@ -696,9 +696,15 @@ a {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  z-index: 9999;
   transition:
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal {
+  position: relative;
+  z-index: 10000;
 }
 
 .backdrop.is-open {
