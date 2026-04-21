@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 h1,
 h2,
 h3,
@@ -302,7 +301,7 @@ h2 {
   margin: 0 auto;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/bg-image.jpg");
+    url("../images/bg-image.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1303,8 +1302,8 @@ BURADAN SONRASI TABLET! KARIŞTIRMA!
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       image-set(
-        url("../images/bg-image.jpg") 1x,
-        url("../images/bg-image@2x.jpg") 2x
+        url("../images/bg-image.webp") 1x,
+        url("../images/bg-image@2x.webp") 2x
       );
     background-repeat: no-repeat;
     background-position: center;
@@ -2172,7 +2171,7 @@ BURADAN SONRASI DESKTOP! KARIŞTIRMA!
     margin: 0 auto;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url("../images/bg-image.jpg");
+      url("../images/bg-image.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

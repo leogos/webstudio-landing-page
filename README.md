@@ -1,4 +1,4 @@
-# goit-markup-hw-06
+-
 
 # WebStudio Landing Page
 
@@ -21,4 +21,4 @@ Responsive landing page built using HTML and CSS.
 
 ## Live Demo
 
-https://leogos.github.io/goit-markup-hw-06/
+https://leogos.github.io/webstudio-landing-page/
