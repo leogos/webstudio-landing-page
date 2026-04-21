@@ -21,7 +21,16 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="preload"
+      href="./styles/styles.css"
+      as="style"
+      onload="this.rel = 'stylesheet'"
+    />
+
+    <noscript>
+      <link rel="stylesheet" href="./styles/styles.css" />
+    </noscript>
 
     <link rel="icon" type="image/png" href="./images/favicon.png" />
   </head>
